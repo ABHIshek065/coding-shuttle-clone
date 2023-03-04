@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+}
+
+.navbar {
+ width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(248, 245, 245);
+  padding: 10px 0;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  padding: 20px 12px;
+  margin-left: 10px;
+}
+
+.head-icon {
+  margin-right: 12px;
+  font-size: 2px;
+
+}
+
+.nav-logo {
+padding-left: 22px;
+  height: 60px;
+}
+
+.user-img {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+.header {
+  padding: 12px 35px;
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.heading {
+  width: 460px;
+  padding-left: 24px;
+}
+.sidebar {
+  width: 500px;
+}
+
+.sidebar-img {
+  width: 420px;
+  /* padding-left: 113px; */
+}
+
+.heading-p {
+  font-size: 44px;
+  margin-bottom: 13px;
+}
+
+.heading span {
+  font-weight: bolder;
+}
+
+hr {
+  width: 9%;
+  border: 1.5px solid rgb(97, 97, 97);
+  margin: 0;
+}
+
+.heading-p2 {
+  margin-top: 33px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.content-heading {
+  font-size: 56px;
+  margin-top: 25px;
+  padding: 50px 120px;
+  letter-spacing: 3px;
+}
+.content-para {
+  margin-top: -39px;
+  font-size: 25px;
+  padding: 0 120px;
+  margin-bottom: 33px;
+}
+
+.rocket {
+  font-size: 0.3rem;
+  color: blueviolet;
+}
+
+.content span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.company-logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 130px;
+}
+
+.content h2 {
+  font-size: 36px;
+  margin-top: 25px;
+  padding: 50px 120px;
+}
+
+.com1 {
+  width: 10%;
+  padding-inline: -36px;
+  margin-bottom: 34px;
+}
+
+.many-more {
+  text-align: end;
+  font-size: 18px;
+  color: rgb(67, 63, 63);
+  margin-right: 84px;
+  margin-bottom: 35px;
+}
+
+
+
+/* course-benefits */
+
+.course-h{
+    padding: 42px 34px;
+    margin: 56px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.course-benefits{
+    background-color: #6a1b9a;
+    color: #fff;
+   padding-bottom: 36px;
+}
+
+.course-h span{
+text-decoration: underline;
+}
+
+
+
+/* feature */
+
+.container{
+    width: 100%;
+    padding: 0 65px;
+    margin-top:-35px ;
+    margin-inline: 45px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-para h3 {
+    font-size: 24px;
+    padding: 18px;
+}
+.card-para p {
+    font-size: 18px;
+    padding: 18px;
+    line-height: 33px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-sharp{
+    font-size: 17px;
+}
+
+
+
+
+.icons{
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+
+/* compare */
+
+
+.compare-h{
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    margin:42px 50px;  
+    margin-inline: 120px;
+    margin-bottom: 43px;
+}
+
+.compare-h span{
+    text-decoration: underline;
+}
+
+.compare-p{
+    text-align: center;
+    font-size: 34px;
+    margin: -34px;
+    margin-bottom: 28px;
+}
+
+.compare-container{
+  margin-inline: 79px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.compare-list{
+    width: 490px;
+    padding: 12px ;
+    margin-left:50px;
+}
+
+.compare-list p{
+  padding:15px 8px;
+  font-size: 18px;
+}
+
+.compare-list i{
+  padding: 8px;
+}
+
+.fa-check-square{
+  font-size: 22px;
+  color: lightgreen;
+}
+
+.border{
+  background-color: #fff;
+  padding:15px 62px;
+ border: 2px solid lightgray;
+}
+
+.red{
+  text-align: left;
+  color: #fff;
+  background-color: #e62e7e;
+  padding:34px 62px;
+}
+
+.fa-close{
+ margin-right: 12px;
+  font-size: 28px;
+  color: red;
+}
+
+
+
+@media (max-width: 769px) {
+
+} 
+
+
+
+
+@media (max-width: 486px){
+    
+    
+}
