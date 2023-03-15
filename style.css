@@ -176,8 +176,8 @@ hr {
 .card {
   width: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .card-para h3 {
   font-size: 24px;
@@ -229,7 +229,7 @@ hr {
 .compare-container {
   margin-inline: 79px;
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
